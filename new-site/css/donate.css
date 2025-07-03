@@ -7,15 +7,23 @@
     padding: 8rem 0 4rem;
     margin-top: 4rem;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .donate-hero h1 {
     margin-bottom: 1rem;
+    color: white;
+    font-size: 3rem;
 }
 
 .donate-hero .hero-subtitle {
     font-size: 1.25rem;
-    opacity: 0.9;
+    color: white;
+    opacity: 1;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 /* Donation Impact Section */
