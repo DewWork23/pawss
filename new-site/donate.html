@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - PAWSS Inc.</title>
+    <meta name="description" content="Support PAWSS Inc.'s mission to prevent addiction and support recovery in Robeson County. Your donation saves lives.">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/donate.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">PAWSS Inc.</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="programs.html" class="nav-link">Programs</a>
+                <a href="resources.html" class="nav-link">Resources</a>
+                <a href="get-involved.html" class="nav-link">Get Involved</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="donate.html" class="nav-link donate-btn active">Donate</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Donate Hero -->
+    <section class="donate-hero">
+        <div class="container">
+            <h1>Make a Difference Today</h1>
+            <p class="hero-subtitle">Your support helps us save lives and build stronger communities</p>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="donation-impact">
+        <div class="container">
+            <h2>Your Donation at Work</h2>
+            <div class="underline"></div>
+            <p class="impact-intro">Every dollar you contribute directly supports our life-saving programs and services in Robeson County.</p>
+            
+            <div class="impact-cards">
+                <div class="impact-card">
+                    <div class="amount">$25</div>
+                    <div class="impact-description">
+                        <h3>Provides Hope</h3>
+                        <p>Supplies naloxone for one community box, potentially saving a life</p>
+                    </div>
+                </div>
+                
+                <div class="impact-card">
+                    <div class="amount">$50</div>
+                    <div class="impact-description">
+                        <h3>Enables Recovery</h3>
+                        <p>Covers transportation for someone to attend a week of treatment</p>
+                    </div>
+                </div>
+                
+                <div class="impact-card">
+                    <div class="amount">$100</div>
+                    <div class="impact-description">
+                        <h3>Supports Education</h3>
+                        <p>Funds prevention education for an entire classroom of students</p>
+                    </div>
+                </div>
+                
+                <div class="impact-card">
+                    <div class="amount">$250</div>
+                    <div class="impact-description">
+                        <h3>Builds Community</h3>
+                        <p>Sponsors a recovery support group for one month</p>
+                    </div>
+                </div>
+                
+                <div class="impact-card featured">
+                    <div class="amount">$500+</div>
+                    <div class="impact-description">
+                        <h3>Creates Lasting Change</h3>
+                        <p>Funds comprehensive care coordination for multiple individuals</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Options -->
+    <section class="donation-options">
+        <div class="container">
+            <div class="donation-content">
+                <div class="donation-form-section">
+                    <h2>Choose Your Impact</h2>
+                    
+                    <form class="donation-form">
+                        <div class="donation-type">
+                            <label class="type-option">
+                                <input type="radio" name="donation-type" value="one-time" checked>
+                                <span class="type-label">One-Time Donation</span>
+                            </label>
+                            <label class="type-option">
+                                <input type="radio" name="donation-type" value="monthly">
+                                <span class="type-label">Monthly Giving</span>
+                            </label>
+                        </div>
+                        
+                        <div class="amount-selection">
+                            <h3>Select Amount</h3>
+                            <div class="amount-options">
+                                <label class="amount-option">
+                                    <input type="radio" name="amount" value="25">
+                                    <span class="amount-label">$25</span>
+                                </label>
+                                <label class="amount-option">
+                                    <input type="radio" name="amount" value="50">
+                                    <span class="amount-label">$50</span>
+                                </label>
+                                <label class="amount-option">
+                                    <input type="radio" name="amount" value="100" checked>
+                                    <span class="amount-label">$100</span>
+                                </label>
+                                <label class="amount-option">
+                                    <input type="radio" name="amount" value="250">
+                                    <span class="amount-label">$250</span>
+                                </label>
+                                <label class="amount-option">
+                                    <input type="radio" name="amount" value="500">
+                                    <span class="amount-label">$500</span>
+                                </label>
+                                <label class="amount-option">
+                                    <input type="radio" name="amount" value="other">
+                                    <span class="amount-label">Other</span>
+                                </label>
+                            </div>
+                            
+                            <div class="custom-amount" style="display: none;">
+                                <label for="custom-amount">Enter Amount</label>
+                                <input type="number" id="custom-amount" name="custom-amount" min="1" placeholder="$">
+                            </div>
+                        </div>
+                        
+                        <div class="dedication-option">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="dedication" id="dedication-check">
+                                Make this donation in honor or memory of someone
+                            </label>
+                            
+                            <div class="dedication-fields" style="display: none;">
+                                <div class="form-group">
+                                    <label for="dedication-type">Dedication Type</label>
+                                    <select id="dedication-type" name="dedication-type">
+                                        <option value="honor">In Honor Of</option>
+                                        <option value="memory">In Memory Of</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="dedication-name">Name</label>
+                                    <input type="text" id="dedication-name" name="dedication-name">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary donate-submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                                <line x1="1" y1="10" x2="23" y2="10"></line>
+                            </svg>
+                            Proceed to Payment
+                        </button>
+                        
+                        <p class="secure-notice">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                            </svg>
+                            Your donation is secure and tax-deductible
+                        </p>
+                    </form>
+                </div>
+                
+                <div class="other-ways-section">
+                    <h2>Other Ways to Give</h2>
+                    
+                    <div class="other-option">
+                        <h3>Mail a Check</h3>
+                        <p>Make checks payable to:<br>
+                        <strong>PAWSS Inc.</strong><br>
+                        P.O. Box XXXX<br>
+                        Pembroke, NC 28372</p>
+                    </div>
+                    
+                    <div class="other-option">
+                        <h3>Planned Giving</h3>
+                        <p>Leave a lasting legacy by including PAWSS Inc. in your estate planning.</p>
+                        <a href="contact.html" class="text-link">Learn More →</a>
+                    </div>
+                    
+                    <div class="other-option">
+                        <h3>Corporate Matching</h3>
+                        <p>Many employers match charitable contributions. Check with your HR department.</p>
+                    </div>
+                    
+                    <div class="other-option">
+                        <h3>In-Kind Donations</h3>
+                        <p>We accept donations of supplies, services, and volunteer time.</p>
+                        <a href="contact.html" class="text-link">Contact Us →</a>
+                    </div>
+                    
+                    <div class="tax-info">
+                        <h3>Tax Information</h3>
+                        <p>PAWSS Inc. is a 501(c)(3) nonprofit organization. Your donation is tax-deductible to the extent allowed by law.</p>
+                        <p><strong>EIN:</strong> XX-XXXXXXX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Monthly Giving -->
+    <section class="monthly-giving">
+        <div class="container">
+            <div class="monthly-content">
+                <div class="monthly-text">
+                    <h2>Become a Hope Partner</h2>
+                    <p>Monthly giving provides sustainable support for our programs and helps us plan for the future.</p>
+                    
+                    <h3>Benefits of Monthly Giving:</h3>
+                    <ul>
+                        <li>Provides consistent support for our programs</li>
+                        <li>Helps more people with smaller monthly amounts</li>
+                        <li>Reduces administrative costs</li>
+                        <li>Easy to manage and modify anytime</li>
+                        <li>Special updates on your impact</li>
+                    </ul>
+                    
+                    <a href="#donation-form" class="btn btn-primary">Start Monthly Giving</a>
+                </div>
+                <div class="monthly-testimonial">
+                    <blockquote>
+                        "I give monthly because I know the struggle of addiction. PAWSS was there for me, and now I want to be there for others. Even $20 a month makes a real difference."
+                    </blockquote>
+                    <cite>- Sarah, Monthly Donor & Recovery Graduate</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>PAWSS Inc.</h4>
+                    <p>501(c)3 Nonprofit Organization<br>Established 2016</p>
+                    <p class="footer-tagline">Preventing Addiction While Supporting Sobriety</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="resources.html#emergency">Emergency Resources</a></li>
+                        <li><a href="resources.html#naloxone">Naloxone Information</a></li>
+                        <li><a href="https://dewwork23.github.io/robeson-asset-map/" target="_blank">Resource Map</a></li>
+                        <li><a href="programs.html#transportation">Transportation Help</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support Us</h4>
+                    <ul>
+                        <li><a href="donate.html">Make a Donation</a></li>
+                        <li><a href="get-involved.html">Volunteer</a></li>
+                        <li><a href="contact.html">Corporate Partnerships</a></li>
+                        <li><a href="events.html">Fundraising Events</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PAWSS Inc. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/donate.js"></script>
+</body>
+</html>

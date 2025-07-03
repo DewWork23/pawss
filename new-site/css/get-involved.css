@@ -1,0 +1,382 @@
+/* Get Involved Page Specific Styles */
+
+/* Get Involved Hero */
+.involved-hero {
+    background: linear-gradient(135deg, var(--secondary-color) 0%, #1e3a5f 100%);
+    color: white;
+    padding: 8rem 0 4rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.involved-hero h1 {
+    margin-bottom: 1rem;
+}
+
+.involved-hero .hero-subtitle {
+    font-size: 1.25rem;
+    opacity: 0.9;
+}
+
+/* Ways to Help Section */
+.ways-to-help {
+    padding: 5rem 0;
+    background: var(--background);
+}
+
+.section-intro {
+    text-align: center;
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 1rem auto 3rem;
+}
+
+.help-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.help-card {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.help-card:hover {
+    transform: translateY(-5px);
+}
+
+.help-card.featured {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    color: white;
+}
+
+.help-icon {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.help-card.featured .help-icon {
+    color: white;
+}
+
+.help-card h3 {
+    margin-bottom: 1rem;
+}
+
+.help-card p {
+    margin-bottom: 1.5rem;
+}
+
+/* Volunteer Opportunities */
+.volunteer-opportunities {
+    padding: 5rem 0;
+    background: var(--background-alt);
+}
+
+.volunteer-opportunities h2 {
+    text-align: center;
+}
+
+.opportunities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.opportunity-card {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.opportunity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.opportunity-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.requirements {
+    list-style: none;
+    margin: 1rem 0 1.5rem;
+}
+
+.requirements li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--text-secondary);
+}
+
+.requirements li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.commitment {
+    display: inline-block;
+    background: var(--background-alt);
+    padding: 0.25rem 1rem;
+    border-radius: 999px;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+/* Corporate Partnership */
+.corporate-partnership {
+    padding: 5rem 0;
+    background: var(--background);
+}
+
+.partnership-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+}
+
+.partnership-text h2 {
+    margin-bottom: 1rem;
+}
+
+.partnership-text p {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+}
+
+.partnership-text h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.partnership-text ul {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.partnership-text li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.partnership-text li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+}
+
+.partnership-levels h3 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.level-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    margin-bottom: 1rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.level-card:hover {
+    transform: translateX(10px);
+    box-shadow: var(--shadow-lg);
+}
+
+.level-card h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.level-card p {
+    color: var(--text-secondary);
+}
+
+/* Awareness Section */
+.awareness-section {
+    padding: 5rem 0;
+    background: var(--background-alt);
+}
+
+.awareness-section h2 {
+    text-align: center;
+}
+
+.awareness-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.awareness-card {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.awareness-card:hover {
+    transform: translateY(-5px);
+}
+
+.awareness-icon {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.awareness-card h3 {
+    margin-bottom: 1rem;
+}
+
+/* Volunteer Form Section */
+.volunteer-form-section {
+    padding: 5rem 0;
+    background: var(--background);
+}
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 3rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-lg);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-container > p {
+    text-align: center;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+}
+
+.volunteer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.checkbox-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-right: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+.volunteer-form .btn {
+    align-self: center;
+    margin-top: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .help-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .opportunities-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .partnership-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .awareness-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-container {
+        padding: 2rem 1.5rem;
+    }
+}
