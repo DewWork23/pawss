@@ -1,0 +1,341 @@
+/* Resources Page Specific Styles */
+
+/* Resources Hero */
+.resources-hero {
+    background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+    color: white;
+    padding: 8rem 0 4rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.resources-hero h1 {
+    margin-bottom: 1rem;
+}
+
+.resources-hero .hero-subtitle {
+    font-size: 1.25rem;
+    opacity: 0.9;
+}
+
+/* Emergency Section */
+.emergency-section {
+    padding: 3rem 0 5rem;
+    background: var(--background);
+}
+
+.emergency-alert {
+    background: #dc2626;
+    color: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    margin-bottom: 3rem;
+    box-shadow: var(--shadow-lg);
+}
+
+.emergency-alert h2 {
+    color: white;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.emergency-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.emergency-card {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+}
+
+.emergency-card.urgent {
+    border: 2px solid #dc2626;
+}
+
+.emergency-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.hotline-item, .service-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.hotline-item:last-child, .service-item:last-child {
+    border-bottom: none;
+}
+
+.hotline-name, .service-name {
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.hotline-number, .service-number {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #dc2626;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.hotline-number:hover, .service-number:hover {
+    text-decoration: underline;
+}
+
+/* Resource Map Section */
+.resource-map-section {
+    padding: 5rem 0;
+    background: var(--background-alt);
+}
+
+.map-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.map-intro h2 {
+    margin-bottom: 1rem;
+}
+
+.map-intro p {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+}
+
+.map-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+}
+
+.map-btn svg {
+    width: 24px;
+    height: 24px;
+}
+
+.map-features {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.map-features h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.feature-card {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.feature-card h4 {
+    margin-bottom: 0.5rem;
+}
+
+.feature-card p {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+}
+
+/* Naloxone Section */
+.naloxone-section {
+    padding: 5rem 0;
+    background: var(--background);
+}
+
+.naloxone-section h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.naloxone-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.naloxone-info h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.naloxone-info p {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.naloxone-info ol {
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.naloxone-info li {
+    padding: 0.5rem 0;
+    color: var(--text-secondary);
+}
+
+.naloxone-alert {
+    background: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 1rem 1.5rem;
+    border-radius: var(--border-radius);
+}
+
+.naloxone-alert p {
+    margin: 0;
+    color: #92400e;
+}
+
+.naloxone-locations {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+}
+
+.naloxone-locations h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.naloxone-locations p {
+    margin-bottom: 1.5rem;
+}
+
+/* Additional Resources */
+.additional-resources {
+    padding: 5rem 0;
+    background: var(--background-alt);
+}
+
+.additional-resources h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.resource-category {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+}
+
+.resource-category h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.resource-category ul {
+    list-style: none;
+}
+
+.resource-category li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.resource-category li:last-child {
+    border-bottom: none;
+}
+
+.resource-category a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.resource-category a:hover {
+    color: var(--primary-color);
+}
+
+/* Resources CTA */
+.resources-cta {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.resources-cta h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.resources-cta p {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .emergency-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .hotline-item, .service-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+    
+    .naloxone-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .resources-grid {
+        grid-template-columns: 1fr;
+    }
+}
