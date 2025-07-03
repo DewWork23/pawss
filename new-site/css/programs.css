@@ -26,6 +26,11 @@
     margin: 0 auto;
 }
 
+/* Ensure hero subtitle stays white by increasing specificity */
+.hero.programs-hero .hero-subtitle {
+    color: white;
+}
+
 /* Program Detail Section */
 .program-detail {
     padding: 5rem 0;
